@@ -2,7 +2,7 @@
 #import "tweak.h"
 
 void preferencesChanged(){
-	NSDictionary *prefs = [[NSUserDefaults standardUserDefaults] persistentDomainForName:@"com.nightwind.prefbundleexampleprefs"];
+	NSDictionary *prefs = [[NSUserDefaults standardUserDefaults] persistentDomainForName:@"com.teslaman3092.musicbgblurpref"];
 
 	cconoff = (prefs && [prefs objectForKey:@"ccbgimgenon"] ? [[prefs valueForKey:@"ccbgimgenon"] boolValue] : YES ); // PSSwitchCell
     lsonoff = (prefs && [prefs objectForKey:@"lsbgimgenon"] ? [[prefs valueForKey:@"lsbgimgenon"] boolValue] : YES ); // PSSwitchCell
