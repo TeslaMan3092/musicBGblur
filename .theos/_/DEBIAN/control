@@ -6,5 +6,5 @@ Author: teslaman3092 <computerman939@gmail.com>
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), com.nahtedetihw.musicbackground
 Architecture: iphoneos-arm64
-Version: 1.0.1-2+debug
+Version: 1.0.1-3+debug
 Installed-Size: 332

@@ -4,10 +4,10 @@
 void preferencesChanged(){
 	NSDictionary *prefs = [[NSUserDefaults standardUserDefaults] persistentDomainForName:@"com.nightwind.prefbundleexampleprefs"];
 
-	cconoff = (prefs && [prefs objectForKey:@"testSwitchKey"] ? [[prefs valueForKey:@"testSwitchKey"] boolValue] : YES ); // PSSwitchCell
-    lsonoff = (prefs && [prefs objectForKey:@"testSwitchKey"] ? [[prefs valueForKey:@"testSwitchKey"] boolValue] : YES ); // PSSwitchCell
-    lsblur = (prefs && [prefs objectForKey:@"testSliderKey"] ? [[prefs valueForKey:@"testSliderKey"] floatValue] : 10 ); // PSSliderCell
-    ccblur = (prefs && [prefs objectForKey:@"testSliderKey"] ? [[prefs valueForKey:@"testSliderKey"] floatValue] : 10 ); // PSSliderCell
+	cconoff = (prefs && [prefs objectForKey:@"ccbgimgenon"] ? [[prefs valueForKey:@"ccbgimgenon"] boolValue] : YES ); // PSSwitchCell
+    lsonoff = (prefs && [prefs objectForKey:@"lsbgimgenon"] ? [[prefs valueForKey:@"lsbgimgenon"] boolValue] : YES ); // PSSwitchCell
+    lsblur = (prefs && [prefs objectForKey:@"lsimageblurslider"] ? [[prefs valueForKey:@"lsimageblurslider"] floatValue] : 10 ); // PSSliderCell
+    ccblur = (prefs && [prefs objectForKey:@"ccimageblurslider"] ? [[prefs valueForKey:@"ccimageblurslider"] floatValue] : 10 ); // PSSliderCell
 }
 
 %ctor{
