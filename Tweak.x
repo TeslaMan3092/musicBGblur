@@ -1,7 +1,6 @@
 @import UIKit;
 #import "tweak.h"
 
-
 void preferencesChanged(){
 	NSDictionary *prefs = [[NSUserDefaults standardUserDefaults] persistentDomainForName:@"com.nightwind.prefbundleexampleprefs"];
 
@@ -29,9 +28,7 @@ void preferencesChanged(){
         }
     } else{
         %orig;
-    }
-
-   
+    } 
 }
 %end
 
@@ -46,7 +43,5 @@ void preferencesChanged(){
     }else{
         %orig;
     }
-
-    
 }
 %end
