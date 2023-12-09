@@ -1,0 +1,10 @@
+Package: com.teslaman3092.musicbgblur
+Name: musicBGblur
+Description: An awesome MobileSubstrate tweak!
+Maintainer: teslaman3092 <computerman939@gmail.com>
+Author: teslaman3092 <computerman939@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.nahtedetihw.musicbackground
+Architecture: iphoneos-arm64
+Version: 1.0.1-2+debug
+Installed-Size: 332

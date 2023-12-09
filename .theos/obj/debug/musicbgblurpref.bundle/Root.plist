@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>musicbgblurpref First Page</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextViewCell</string>
+			<key>defaults</key>
+			<string>com.teslaman3092.musicbgblurpref</string>
+			<key>default</key>
+			<string>!! This tweak requires MusicBackground from havoc repo !!</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.teslaman3092.musicbgblurpref</string>
+			<key>key</key>
+			<string>AwesomeSwitch1</string>
+			<key>label</key>
+			<string>Awesome Switch 1</string>
+		</dict>
+	</array>
+
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Lock screen image blur</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.teslaman3092.musicbgblurpref</string>
+			<key>key</key>
+			<string>lsbgimgenon</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>66</real>
+			<key>defaults</key>
+			<string>com.teslaman3092.musicbgblurpref</string>
+			<key>min</key>
+			<integer>1</integer>
+			<key>max</key>
+			<integer>50</integer>
+			<key>key</key>
+			<string>lsimageblurslider</string>
+			<key>showValue</key>
+			<true/>
+		</dict>
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Control Center image blur</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.teslaman3092.musicbgblurpref</string>
+			<key>key</key>
+			<string>ccbgimgenon</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>66</real>
+			<key>default</key>
+			<string></string>
+			<key>defaults</key>
+			<string>com.teslaman3092.musicbgblurpref</string>
+			<key>min</key>
+			<integer>1</integer>
+			<key>max</key>
+			<integer>50</integer>
+			<key>key</key>
+			<string>ccimageblurslider</string>
+			<key>showValue</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Music BG Blur</string>
+</dict>
+</plist>

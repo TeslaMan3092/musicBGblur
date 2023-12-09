@@ -20,7 +20,7 @@ void preferencesChanged(){
 
 - (void)viewDidLoad {
 
-    if(cconoff === true){
+    if(cconoff == true){
         %orig;
 
          if (self.artworkViewCC) {
@@ -35,7 +35,7 @@ void preferencesChanged(){
 %hook SBCoverSheetPrimarySlidingViewController
 
 - (void)viewDidLoad {
-    if(lsonoff === true){
+    if(lsonoff == true){
         %orig;
         if (self.artworkViewLSBG) {
             self.artworkViewLSBG.layer.is_blurRadius = lsblur;
